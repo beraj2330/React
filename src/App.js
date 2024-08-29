@@ -7,7 +7,7 @@ function App() {
   //An array to store the user data fetched from the API.
   const [data, setData] = useState([]);
   
-  //An object to store the data of a new user to be added.
+  //An object to store the data of a new user or update to be added.
   const [newData, setNewData] = useState({
     id:'',
     first_name: '',
